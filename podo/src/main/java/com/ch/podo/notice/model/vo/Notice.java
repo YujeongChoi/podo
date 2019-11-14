@@ -15,14 +15,14 @@ import lombok.ToString;
 @ToString
 public class Notice {
 	
-	private int id;
-	private String title;
-	private String content;
-	private int viewCount;
-	private Date createDate;
-	private Date modifyDate;
-	private int imageId;
-	private int adminId;
+	private int id;			// 공지번호
+	private String title;	// 공지제목
+	private String content;	// 공지내용
+	private int viewCount;	// 조회수
+	private Date createDate; // 최초작성일
+	private Date modifyDate; // 최종수정일
+	private int imageId;	 // 이미지번호
+	private int adminId;	 // 회원번호
 
 
 }
